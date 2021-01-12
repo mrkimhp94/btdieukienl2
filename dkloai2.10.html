@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const l1 = 300;
+    const l2 = 500;
+    const l3 = 1000;
+    let x = parseInt(prompt("Nhập số điện đã sử dụng"));
+    if (x < 30) {
+        alert(x * l1);
+    } else if (x < 50) {
+        alert((x - 30) * l2 + 30 * l1);
+    } else {
+        alert(30 * l1 + 20 * l2 + (x - 50) * l3);
+    }
+</script>
+</body>
+</html>
